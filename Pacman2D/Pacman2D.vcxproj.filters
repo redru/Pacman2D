@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{16c88dd6-ccc5-478e-bb4b-ef5515e43c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{cdd1a9e9-4ed1-44fb-80e7-04eee5db7dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders">
+      <UniqueIdentifier>{8990e9e8-a8f6-4f64-8b0a-58623506d6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shaders">
+      <UniqueIdentifier>{ceab513b-15b6-47ca-ac66-46a2d769bbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{d837a849-bd0b-43fc-b0db-709f68766e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{70b090e5-4e7b-4307-9dcc-42a4624c755e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{408e6416-de57-4eb5-89be-b84b0513205a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\basic_geometry">
+      <UniqueIdentifier>{f3d03587-868f-4f72-a79c-e7e4ebf6eeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\projection">
+      <UniqueIdentifier>{4a689c3d-c665-48f6-8747-f2fd1faa4271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\entity_components">
+      <UniqueIdentifier>{16b35ce0-770f-4759-a130-aa4d59a66e4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShadersFactory.cpp">
+      <Filter>src\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileStreams.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Triangle.cpp">
+      <Filter>src\basic_geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\fs_default.glsl">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\vs_default.glsl">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\fs_default_v_140.glsl">
+      <Filter>assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\vs_default_v_140.glsl">
+      <Filter>assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ShadersFactory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileStreams.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderProgram.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transform.h">
+      <Filter>headers\entity_components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entity.h">
+      <Filter>headers\entity_components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Triangle.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>headers\entity_components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
